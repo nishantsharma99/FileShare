@@ -1,11 +1,11 @@
 {
   "name": "file-sharing",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon app.js",
-    "start": "node app.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
 
   },
   "dependencies": {
