@@ -28,7 +28,8 @@
     font-size: 30px;
   }
 section.download {
-    background: #fff;
+    background: darkslategrey;
+    color: white
     width: 430px;
     max-width: 90%;
     border-radius: 25px;
