@@ -14,20 +14,26 @@
     <div class="logo2"><Strong>FileShare</Strong></div>
 
     <section class="download">
-        <img class="download__icon" src="/img/download.webp" alt="inshare-download">
+        <img class="download__icon" src="/img/download.webp" alt="fileShare-download">
         <% if(locals.error){ %>
-        <h4><%= locals.error %> 😏</h4>
-        <% } else { %>
-        <h2>Your file is ready to download</h2>
-        <p>Link expires in 24 hours</p>
-        <div class="download__meta">
-            <h4><%= fileName %></h4>
-            <small><%= parseInt(fileSize/1000) %> KB</small>
-        </div>
-        <div class="send-btn-container">
-            <a href="<%= downloadLink %>">Download file</a>
-        </div>
-        <% } %>
+            <h4>
+                <%= locals.error %> 😏
+            </h4>
+            <% } else { %>
+                <h2>Your file is ready to download</h2>
+                <p>Link expires in 24 hours</p>
+                <div class="download__meta">
+                    <h4>
+                        <%= fileName %>
+                    </h4>
+                    <small>
+                        <%= parseInt(fileSize/1000) %> KB
+                    </small>
+                </div>
+                <div class="send-btn-container">
+                    <a href="<%= downloadLink %>">Download file</a>
+                </div>
+                <% } %>
     </section>
 </body>
 
