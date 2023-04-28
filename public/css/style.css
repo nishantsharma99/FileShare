@@ -31,7 +31,8 @@ body {
 
 section.download {
   background: darkslategray;
-  color: white width: 430px;
+  color: white; 
+  width: 430px;
   max-width: 90%;
   border-radius: 25px;
   box-shadow: 0px 20px 20px 0px #00000017;
